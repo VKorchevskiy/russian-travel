@@ -10,3 +10,21 @@
   padding: 245px 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__link {
+    padding: 33px 0;
+  }
+}
