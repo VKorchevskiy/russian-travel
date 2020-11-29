@@ -14,3 +14,11 @@
 .header__lang-link:target {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 14px 0 0 0;
+  }
+}

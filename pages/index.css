@@ -2,13 +2,13 @@
 @import "../fonts/fonts.css";
 @import "../blocks/page/page.css";
 
+@import "../blocks/logo/logo.css";
+
 @import "../blocks/header/header.css";
 @import "../blocks/header/__lang-links/header__lang-links.css";
 @import "../blocks/header/__lang-links/_list/header__lang-links_list.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/header/__lang-link/_active/header__lang-link_active.css";
-
-@import "../blocks/logo/logo.css";
 
 @import "../blocks/lead/lead.css";
 @import "../blocks/lead/__title/lead__title.css";
@@ -46,6 +46,6 @@
 @import "../blocks/footer/__link/footer__link.css";
 @import "../blocks/footer/__copyright/footer__copyright.css";
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
