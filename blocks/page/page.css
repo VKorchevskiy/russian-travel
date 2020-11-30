@@ -1,6 +1,9 @@
 .page {
   background: #2A2C2F;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   color: #FFFFFF;
+  min-width: 320px;
+  max-width: 1600px;
+  margin: 0 auto;
 }

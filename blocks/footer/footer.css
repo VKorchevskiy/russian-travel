@@ -1,23 +1,24 @@
 .footer {
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: max-content;
   justify-items: start;
   align-items: center;
-  max-width: 1280px;
-  margin: auto;
-  padding: 92px 48px 24px;
+  gap: 48px;
+  padding: 64px 16px 24px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .footer {
-    padding: 88px 24px 24px;
+    grid-template-columns: max-content 1fr;
+    margin: auto;
+    padding: 88x 48px 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1024px) {
   .footer {
-    grid-template-columns: max-content;
-    gap: 48px;
-    padding: 64px 16px 16px;
+    grid-template-columns: max-content 1fr;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }

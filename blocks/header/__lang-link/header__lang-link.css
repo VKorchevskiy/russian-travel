@@ -1,24 +1,22 @@
 .header__lang-link {
-  font-size: 24px;
-  line-height: 28px;
   text-decoration: none;
   color: #FFFFFF;
   display: inline-block;
   font-weight: 400;
-  margin: 18px 0 0 0;
-
+  font-size: 18px;
+  line-height: 20px;
+  margin: 14px 0 0;
 }
 
-
-
-.header__lang-link:target {
-  text-decoration: underline;
+@media screen and (min-width: 425px) {
+  .header__lang-link {
+    margin-top: 18px;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 22px;
-    margin: 14px 0 0 0;
+    line-height: 24px;
   }
 }
