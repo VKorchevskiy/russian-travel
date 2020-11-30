@@ -1,5 +1,6 @@
 @import "../vendor/normalize.css";
 @import "../fonts/fonts.css";
+@import "../vendor/cursor_pointer.css";
 @import "../blocks/page/page.css";
 
 @import "../blocks/logo/logo.css";

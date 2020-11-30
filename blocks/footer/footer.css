@@ -8,8 +8,16 @@
   padding: 92px 48px 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer {
     padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    grid-template-columns: max-content;
+    gap: 48px;
+    padding: 64px 16px 16px;
   }
 }
