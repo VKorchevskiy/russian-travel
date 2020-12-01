@@ -11,14 +11,15 @@
   .footer {
     grid-template-columns: max-content 1fr;
     margin: auto;
-    padding: 88x 48px 24px;
+    padding: 88px 24px 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
     grid-template-columns: max-content 1fr;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 92px;
   }
 }

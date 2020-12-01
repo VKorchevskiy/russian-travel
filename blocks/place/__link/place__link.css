@@ -6,4 +6,5 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+  cursor: url(../../../vendor/cursor/cursor_pointer.cur), pointer;
 }

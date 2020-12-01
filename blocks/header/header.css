@@ -6,13 +6,13 @@ header {
   margin: auto;
 }
 
-@media screen and (min-widtth: 768px) {
+@media screen and (min-width: 768px) {
   .header {
     padding: 28px 24px 0;
   }
 }
 
-@media screen and (min-widtth: 1024px) {
+@media screen and (min-width: 1024px) {
   .header {
     padding: 28px 48px 0;
   }
