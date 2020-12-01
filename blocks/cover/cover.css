@@ -1,19 +1,4 @@
 .cover {
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    padding: 0 48px;
-  }
-}
-
-
-
-
-/* .cover {
   background-image: url(../../images/cover__image.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,8 +6,6 @@
   width: 100vw;
   height: 62.5vw;
   max-width: 100%;
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   position: relative;
 }
@@ -45,6 +28,8 @@
 @media screen and (min-width: 1280px) {
   .cover {
     padding: 0 48px;
+    width: calc(100vw - 48px*2);
+    height: calc(62.5vw - 48px*2*0.625);
+    margin: 0 auto;
   }
 }
- */
