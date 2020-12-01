@@ -9,6 +9,10 @@
   cursor: url(../../../vendor/cursor/cursor_pointer.cur), pointer;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 425px) {
   .header__lang-link {
     margin-top: 18px;
