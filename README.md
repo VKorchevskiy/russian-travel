@@ -9,7 +9,7 @@
 
 Здесь представлен проект о путешествии по России.
 В Фигме мы размещен макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-[Ссылка на страницу в ](https://vkorchevskiy.github.io/russian-travel/index.html)
+[Ссылка на страницу на GitHub Pages.](https://vkorchevskiy.github.io/russian-travel/index.html)
 
 **Figma**
 
