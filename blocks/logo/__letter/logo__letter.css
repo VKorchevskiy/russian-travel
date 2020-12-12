@@ -1,0 +1,14 @@
+@keyframes move {
+	from {
+		transform: translate(0);
+	}
+	to {
+		transform: translate(20px);
+	}
+}
+
+.logo__letter {
+  fill: white;
+  animation: move 2s linear 0s infinite alternate running;
+}
+

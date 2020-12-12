@@ -1,0 +1,22 @@
+/* чередование цветов флага */
+
+/* @keyframes color {
+  0% {
+    fill: white;
+  }
+  33% {
+    fill: blue;
+  }
+  66% {
+    fill: red;
+  }
+  100% {
+    fill: white;
+  }
+} */
+
+.logo__russia {
+  fill: white;
+  /* animation: color 6s linear 0s infinite backwards running; */
+}
+
